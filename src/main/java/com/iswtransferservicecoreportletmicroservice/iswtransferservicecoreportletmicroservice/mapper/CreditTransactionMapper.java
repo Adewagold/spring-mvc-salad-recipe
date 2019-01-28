@@ -1,0 +1,4 @@
+package com.iswtransferservicecoreportletmicroservice.iswtransferservicecoreportletmicroservice.mapper;
+
+public class CreditTransactionMapper {
+}

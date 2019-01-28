@@ -1,0 +1,8 @@
+package com.iswtransferservicecoreportletmicroservice.iswtransferservicecoreportletmicroservice.repository;
+
+import com.iswtransferservicecoreportletmicroservice.iswtransferservicecoreportletmicroservice.model.v1.CreditTransaction;
+
+public interface CreditTransactionRepository {
+    CreditTransaction getTransactionByTransactionReference(String transactionRef);
+    CreditTransaction getTransactionByClientRef(String clientRef);
+}
